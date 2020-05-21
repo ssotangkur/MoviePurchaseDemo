@@ -1,0 +1,35 @@
+.flex {
+  display: flex;
+
+  &.inline {
+    display: inline-flex;
+  }
+
+  &.row {
+    flex-direction: row;
+  }
+
+  &.column {
+    flex-direction: column;
+  }
+
+  &.stretch {
+    align-items: stretch;
+  }
+
+  &:not(.stretch) {
+    align-items: flex-start;
+  }
+}
+
+.inline-flex {
+  display: inline-flex;
+
+  &.row {
+    flex-direction: row;
+  }
+
+  &.column {
+    flex-direction: column;
+  }
+}

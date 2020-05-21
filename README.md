@@ -1,2 +1,0 @@
-# MoviePurchaseDemo
-Created with CodeSandbox
